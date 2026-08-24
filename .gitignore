@@ -1,0 +1,5 @@
+.DS_Store
+# real secrets should only ever live in ~/.claude-accounts/, never in the
+# repo -- this is just a safety net in case someone stages a .env by hand
+*.env
+!*.env.example
